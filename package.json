@@ -1,0 +1,26 @@
+{
+	"name": "practice-express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.5.0"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"mongoose": "^7.0.4"
+	},
+	"jest": {
+		"testEnvironment": "node",
+		"setupFilesAfterEnv": [
+			"<rootDir>/testSetup.js"
+		],
+		"restoreMocks": true
+	}
+}
