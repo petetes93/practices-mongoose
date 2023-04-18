@@ -1,8 +1,8 @@
-# Schema de Mongoose
+# CRUD
 
-## Arregla el modelo `Book` para que las pruebas pasen.
+## Implementa las funciones para crear un CRUD funcional usando el modelo de Mongoose Book
 
-- [x] Instala las dependencias `npm install`.
-- [x] Ejecuta las pruebas `npm test`.
-- [x] Lee atentamente los errores que tiran las pruebas y modifica `book.js` para las pasen.
-- [x] Si fuese necesario inspecciona `__test__/book.test.js` para buscar pistas.
+- [] Instala las dependencias `npm install`.
+- [] Ejecuta las pruebas `npm test`.
+- [] Lee atentamente los errores que tiran las pruebas y modifica `crud.js` para las pasen.
+- [] Si fuese necesario inspecciona `__test__/crud.test.js` para buscar pistas.
